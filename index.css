@@ -14,13 +14,17 @@ body {
 
 .page-center {
     max-width: 1200px;
-    padding: 64px 256px;
+    margin: 0 auto;
 }
+
+/* header */
 
 .header {
     display: flex;
     justify-content: space-between;
     color: #f9faf8;
+    padding: 16px 0;
+    margin-bottom: 64px;
 } 
 
 .header-logo {
@@ -31,6 +35,7 @@ body {
 
 .header-links {
     display: flex;
+    gap: 24px;
 }
 
 li {
@@ -43,14 +48,23 @@ a {
     text-decoration: none;
 }
 
+/* hero section */
+
 .section-content {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     color: #f9faf8;
+    gap:24px;
+    padding-bottom: 64px;
+    margin-bottom: 64px;
 }
 
 .hero-text {
     display: flex;
     flex-direction: column;
+    gap: 12px;
+    max-width: 50%;
 }
 
 .hero-text-main {
@@ -66,6 +80,15 @@ a {
 .hero-button {
     background-color: #3882f6;
     color: #f9faf8;
+    padding: 8px 32px;
+    border-radius: 8px;
+    font-weight: bold;
+    border:none;
+}
+
+.hero-image {
+    width:400px;
+    height: 200px;
 }
 
 /* SECTION 1 */
@@ -75,16 +98,20 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap:24px;
 }
 
 .section-1-heading {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+    margin-bottom: 24px;
 }
 
 .section-1-content {
     display: flex;
+    gap:48px;
+    margin-bottom: 64px;
 }
 
 .section-1-image {
@@ -95,6 +122,9 @@ a {
 .image-illustration {
     display: flex;
     flex-direction: column;
+    gap:12px;
+    align-items: center;
+    text-align: center;
 }
 
 .illustration {
@@ -105,6 +135,11 @@ a {
 /* Section 2 */
 .grey {
     background-color: #e5e7eb;
+}
+
+.section-2 {
+    margin-bottom: 64px;
+    padding: 32px 64px;
 }
 
 .section-2-content {
@@ -121,32 +156,43 @@ a {
 
 .section-2-by {
     font-weight: bold;
+    font-size: 18px;
+    margin-top: 12px;
+
+    align-self: flex-end;
 }
 
 /* Section 3 */
+
 .section-3-content {
     background-color: #3882f6;
+    padding: 64px 24px;
+    margin-bottom: 64px;
 
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
 }
 
 .section-3-text {
     display: flex;
     flex-direction: column;
-
+    gap:6px;
     color:#f9faf8;
 }
 
 .cta-heading {
     font-weight: bold;
+    font-size: 24px;
 
 }
 
 .section-3-button {
     background-color: #3882f6;
     color: #f9faf8;
-    border-color: #f9faf8;
+    border:  2px solid #f9faf8;
+    border-radius: 6px;
+    padding: 6px 24px;
+    font-weight: bold;
 }
 
 /* footer */
@@ -154,6 +200,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 16px 0;
 }
 
 .footer-text {
