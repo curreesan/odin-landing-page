@@ -8,7 +8,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.container {
+.blue {
     background-color: #1f2937;
 }
 
@@ -67,3 +67,39 @@ a {
     background-color: #3882f6;
     color: #f9faf8;
 }
+
+/* SECTION 1 */
+
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1-heading {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.section-1-content {
+    display: flex;
+}
+
+.section-1-image {
+    height: 100px;
+    width: 100px;
+}
+
+.image-illustration {
+    display: flex;
+    flex-direction: column;
+}
+
+.illustration {
+    font-size: 18px;
+    color: #1f2937;
+}
+
+/* Section 2 */
