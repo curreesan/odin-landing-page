@@ -154,13 +154,17 @@ a {
     color: #1f2937;
 }
 
+
 .section-2-by {
     font-weight: bold;
     font-size: 18px;
     margin-top: 12px;
+    width: 100%;
 
-    align-self: flex-end;
+    display: flex;
+    justify-content:flex-end;
 }
+
 
 /* Section 3 */
 
