@@ -14,7 +14,7 @@ body {
 
 .page-center {
     max-width: 1200px;
-    padding: 0 256px;
+    padding: 64px 256px;
 }
 
 .header {
@@ -103,3 +103,24 @@ a {
 }
 
 /* Section 2 */
+.grey {
+    background-color: #e5e7eb;
+}
+
+.section-2-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-2-quote {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.section-2-by {
+    font-weight: bold;
+}
+
+/* Section 3 */
