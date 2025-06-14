@@ -14,7 +14,7 @@ body {
 
 .page-center {
     max-width: 1200px;
-    padding: 64px 256px;
+    padding: 32px 256px;
 }
 
 .header {
@@ -124,3 +124,29 @@ a {
 }
 
 /* Section 3 */
+.section-3-content {
+    background-color: #3882f6;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-3-text {
+    display: flex;
+    flex-direction: column;
+
+    color:#f9faf8;
+}
+
+.cta-heading {
+    font-weight: bold;
+
+}
+
+.section-3-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-color: #f9faf8;
+}
+
+/* footer */
